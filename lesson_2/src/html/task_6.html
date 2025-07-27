@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Task 6</title>
+		<style>
+body{
+	font-family: sans-serif;
+}
+.check {
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 5px;
+	border: 1px solid #000;
+}
+.check_header{
+	max-width: 150px;
+	margin: 0 auto;
+}
+.check_header img {
+	max-width: 100%;
+}
+.check_row {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+}
+.check_row:not(:last-child) {
+	margin-bottom: 10px;
+}
+.check_item {
+	flex: 50px 1 0;
+}
+.check_cost {
+	text-align: right;
+	border-bottom: 1px solid #000;
+}
+.check_footer {
+	font-size: 20px;
+}
+		</style>
+	</head>
+	<body>
+		<div>Задача 6. З клавіатури вводяться вартість товару та кількість одиниць 3 товарів. Обчислити вартість кожного товару окремо та загальну вартість. Вивести чек (як у супермаркеті) використовуючи елементи розмітки.</div>
+		<br>
+		<br>
+		<script src="../../javascript/script_task_6.js"></script>
+		<br>
+		<a href="../../index.html">Go back</a>
+	</body>
+</html>
