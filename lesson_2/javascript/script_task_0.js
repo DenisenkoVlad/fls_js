@@ -11,7 +11,7 @@ const b = parseFloat(prompt('b ='));
 const c = parseFloat(prompt('c ='));
 
 const S1 = a + 12 + b;
-const S2 = Math.sqrt((a + b) / 2 * a);
+const S2 = Math.sqrt((a + b) / (2 * a));
 const S3 = Math.cbrt((a + b) * c);
 const S4 = Math.sin(a / -b);
 
@@ -21,3 +21,4 @@ S2 = ${S2}<br>
 S3 = ${S3}<br>
 S4 = ${S4}<br>
 `);
+
