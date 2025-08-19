@@ -5,7 +5,6 @@ if (confirm('Start test # 8')) {
 		document.write(`<h3>${header}</h3>
 		<a href="${link}"><img style="width:200px;" src="${img}" alt="Image"></a>`)
 	}
-}
 
 const ranImg = 1 + Math.floor(Math.random() * 1)
 let imgSrc
@@ -27,3 +26,4 @@ const headerText = prompt('Введіть заголовок', 'Загалово
 const BANNER_LINK = './task_8_2.html'
 
 let res = banner(imgSrc, headerText, BANNER_LINK)
+}
